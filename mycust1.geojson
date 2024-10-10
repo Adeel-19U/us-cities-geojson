@@ -7,8 +7,14 @@
         "name": "New York City"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [-74.0060, 40.7128]
+        "type": "Polygon",
+        "coordinates": [[
+          [-74.0479, 40.6839],
+          [-73.9105, 40.6839],
+          [-73.9105, 40.8351],
+          [-74.0479, 40.8351],
+          [-74.0479, 40.6839]
+        ]]
       }
     },
     {
@@ -17,8 +23,14 @@
         "name": "Los Angeles"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [-118.2437, 34.0522]
+        "type": "Polygon",
+        "coordinates": [[
+          [-118.6682, 33.7041],
+          [-118.1553, 33.7041],
+          [-118.1553, 34.3373],
+          [-118.6682, 34.3373],
+          [-118.6682, 33.7041]
+        ]]
       }
     },
     {
@@ -27,79 +39,16 @@
         "name": "Chicago"
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [-87.6298, 41.8781]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Houston"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-95.3698, 29.7604]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Phoenix"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-112.0740, 33.4484]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Philadelphia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.1652, 39.9526]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "San Antonio"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-98.4936, 29.4241]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "San Diego"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-117.1611, 32.7157]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Dallas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-96.7969, 32.7767]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "San Jose"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-121.8863, 37.3382]
+        "type": "Polygon",
+        "coordinates": [[
+          [-87.9401, 41.6445],
+          [-87.5242, 41.6445],
+          [-87.5242, 42.0230],
+          [-87.9401, 42.0230],
+          [-87.9401, 41.6445]
+        ]]
       }
     }
+    // Add more cities with their polygon boundaries as needed
   ]
 }
